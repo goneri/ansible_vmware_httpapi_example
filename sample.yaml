@@ -1,0 +1,12 @@
+- hosts: vcenter
+  connection: httpapi
+  gather_facts: false
+  vars:
+  tasks:
+
+    - name: Get all health attribute information
+      vmware_appliance_health_info:
+
+    - name: Get system health information
+      vmware_appliance_health_info:
+        subsystem: system

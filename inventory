@@ -1,0 +1,2 @@
+vcenter ansible_network_os=vmware ansible_host=vcenter.test ansible_user='administrator@vsphere.local' ansible_password="!234AaAa56" ansible_httpapi_use_ssl=yes ansible_httpapi_validate_certs=false
+
